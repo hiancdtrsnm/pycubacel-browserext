@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function()
     document.getElementById('test').textContent = 'SUCCEED';
 
 
-    fetch('http://localhost:5000')
+    fetch('http://127.0.0.1:5000')
   .then(response => response.json())
-  .then(data => {console.log(data); document.getElementById('test').textContent = data.internet.data.values.only_lte.cant;});
+  .then(data => {console.log(data.internet.data.values); document.getElementById('test').textContent = data.internet.data.values.normal.cant;});
 });
