@@ -1,0 +1,6 @@
+
+Todo:
+  ☐ Test scrap from dart and trasnpile with dart2js to javascript to use it instead of python server, see:
+    ☐ https://stackoverflow.com/questions/48240298/calling-dart-from-javascript
+    ☐ https://stackoverflow.com/questions/23104432/calling-dart-code-from-javascript
+    ☐ https://pub.dev/packages/js
