@@ -1,10 +1,10 @@
 {
     "manifest_version": 2,
-    "name": "Python Chrome Plugin",
-    "description": "This extension runs Python code.",
+    "name": "Micubacel Plugin",
+    "description": "Consult micubacel information .This extension runs Python code.",
     "version": "1.0",
     "browser_action": {
-        "default_icon": "etecsa.ico",
+        "default_icon": "etecsa.jpg",
         "default_popup": "popup.html"
     },
     "permissions": [
