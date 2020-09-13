@@ -38,13 +38,15 @@ document.addEventListener('DOMContentLoaded', function()
         document.getElementById('nbd').textContent = round(data.internet.data.values.national_data.delta);
 
         document.getElementById('cerdit').textContent = data.internet.credit.values.credit_normal.cant;
-        document.getElementById('cerdit').textContent = round(data.internet.credit.values.credit_normal.delta);
+        document.getElementById('cerditd').textContent = round(data.internet.credit.values.credit_normal.delta);
         document.getElementById('cerditb').textContent = data.internet.credit.values.credit_bonus.cant;
         document.getElementById('cerditbd').textContent = round(data.internet.credit.values.credit_bonus.delta);
         document.getElementById('min').textContent = data.internet.others.values.minutes.cant;
         document.getElementById('mind').textContent = round(data.internet.others.values.minutes.delta);
         document.getElementById('sms').textContent = data.internet.others.values.sms.cant;
         document.getElementById('smsd').textContent = round(data.internet.others.values.sms.delta);
+        console.log(data.internet.credit.values.credit_normal.cant);
+        console.log(data.internet.credit.values.credit_bonus.cant);
         //document.getElementById('test').textContent = data.internet.data.values.normal.cant+'  delta='+round(data.internet.data.values.normal.delta);
     });
 });
