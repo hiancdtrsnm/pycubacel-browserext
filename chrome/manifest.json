@@ -17,6 +17,9 @@
         "*://127.0.0.1/*"
     ],
     "background": {
-        "scripts": ["background.js"]
+        "scripts": [
+            "browser-polyfill.min.js",
+            "background.js"
+        ]
     }
 }
