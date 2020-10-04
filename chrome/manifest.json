@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Micubacel Plugin",
+    "description": "Consult micubacel information .This extension runs Python code.",
+    "version": "1.1",
+    "icons": {
+        "16": "icons/etecsa.png"
+    },
+    "browser_action": {
+        "default_icon": "icons/etecsa.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "alarms",
+        "activeTab",
+        "https://ajax.googleapis.com/",
+        "*://127.0.0.1/*"
+    ],
+    "background": {
+        "scripts": [
+            "browser-polyfill.min.js",
+            "background.js"
+        ]
+    }
+}

@@ -1,0 +1,106 @@
+<html>
+<head>
+    <!--<script type='text/javascript' src='chart.js'></script>-->
+    <script type='text/javascript' src='popup.js'></script>
+    <style>
+        table{
+            table-layout: fixed;
+            width: 350px;
+        }
+        td{
+            border-bottom: 1px solid #333;
+            margin-left: 3px;
+            margin-right: 3px;
+        }
+        thead {
+            background-color: #333;
+            color: #fff;
+        }
+        .bg {
+            background-color: rgb(92, 92, 92);
+            color: #fff;
+            text-align: center;
+        }
+        .itemRight{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">Internet</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="bg">Service</td>
+                    <td class="bg">Value</td>
+                    <td class="bg">Delta</td>
+                </tr>
+                <tr>
+                    <td class="itemRight">LTE only</td>
+                    <td id='lteo' class="itemRight"></td>
+                    <td id='lteod' class="itemRight"></td>
+                </tr>
+              <tr>
+                    <td class="itemRight">All networks</td>
+                    <td id='an' class="itemRight"></td>
+                    <td id='and' class="itemRight"></td>
+                </tr>
+              <tr>
+                    <td class="itemRight">LTE Bonus</td>
+                    <td id='lteb' class="itemRight"></td>
+                    <td id='ltebd' class="itemRight"></td>
+                </tr>
+              <tr>
+                    <td class="itemRight">National Bonus</td>
+                    <td id='nb' class="itemRight"></td>
+                    <td id='nbd' class="itemRight"></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">General</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="bg">Service</td>
+                    <td class="bg">Value</td>
+                    <td class="bg">Delta</td>
+                </tr>
+                <tr>
+                    <td class="itemRight">Credit</td>
+                    <td id='cerdit' class="itemRight"></td>
+                    <td id='cerditd' class="itemRight"></td>
+                </tr>
+              <tr>
+                    <td class="itemRight">Credit Bonus</td>
+                    <td id='cerditb' class="itemRight"></td>
+                    <td id='cerditbd' class="itemRight"></td>
+                </tr>
+              <tr>
+                    <td class="itemRight">Minute</td>
+                    <td id='min' class="itemRight"></td>
+                    <td id='mind' class="itemRight"></td>
+                </tr>
+              <tr>
+                    <td class="itemRight">SMS</td>
+                    <td id='sms' class="itemRight"></td>
+                    <td id='smsd' class="itemRight"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!--<p id='test'></p>-->
+
+    <div id="some-div"></div>
+
+</body>
