@@ -3,6 +3,10 @@
     <!--<script type='text/javascript' src='chart.js'></script>-->
     <script type='text/javascript' src='popup.js'></script>
     <style>
+        table{
+            table-layout: fixed;
+            width: 350px;
+        }
         td{
             border-bottom: 1px solid #333;
             margin-left: 3px;
@@ -15,6 +19,10 @@
         .bg {
             background-color: rgb(92, 92, 92);
             color: #fff;
+            text-align: center;
+        }
+        .itemRight{
+            text-align: right;
         }
     </style>
 </head>
@@ -33,29 +41,29 @@
                     <td class="bg">Delta</td>
                 </tr>
                 <tr>
-                    <td>LTE only</td>
-                    <td id='lteo'></td>
-                    <td id='lteod'></td>
+                    <td class="itemRight">LTE only</td>
+                    <td id='lteo' class="itemRight"></td>
+                    <td id='lteod' class="itemRight"></td>
                 </tr>
               <tr>
-                    <td>All networks</td>
-                    <td id='an'></td>
-                    <td id='and'></td>
+                    <td class="itemRight">All networks</td>
+                    <td id='an' class="itemRight"></td>
+                    <td id='and' class="itemRight"></td>
                 </tr>
               <tr>
-                    <td>Promotional Bonus</td>
-                    <td id='pb'></td>
-                    <td id='pbd'></td>
+                    <td class="itemRight">Promotional Bonus</td>
+                    <td id='pb' class="itemRight"></td>
+                    <td id='pbd' class="itemRight"></td>
                 </tr>
               <tr>
-                    <td>LTE Bonus</td>
-                    <td id='lteb'></td>
-                    <td id='ltebd'></td>
+                    <td class="itemRight">LTE Bonus</td>
+                    <td id='lteb' class="itemRight"></td>
+                    <td id='ltebd' class="itemRight"></td>
                 </tr>
               <tr>
-                    <td>National Bonus</td>
-                    <td id='nb'></td>
-                    <td id='nbd'></td>
+                    <td class="itemRight">National Bonus</td>
+                    <td id='nb' class="itemRight"></td>
+                    <td id='nbd' class="itemRight"></td>
                 </tr>
             </tbody>
         </table>
@@ -73,24 +81,24 @@
                     <td class="bg">Delta</td>
                 </tr>
                 <tr>
-                    <td>Credit</td>
-                    <td id='cerdit'></td>
-                    <td id='cerditd'></td>
+                    <td class="itemRight">Credit</td>
+                    <td id='cerdit' class="itemRight"></td>
+                    <td id='cerditd' class="itemRight"></td>
                 </tr>
               <tr>
-                    <td>Credit Bonus</td>
-                    <td id='cerditb'></td>
-                    <td id='cerditbd'></td>
+                    <td class="itemRight">Credit Bonus</td>
+                    <td id='cerditb' class="itemRight"></td>
+                    <td id='cerditbd' class="itemRight"></td>
                 </tr>
               <tr>
-                    <td>Minute</td>
-                    <td id='min'></td>
-                    <td id='mind'></td>
+                    <td class="itemRight">Minute</td>
+                    <td id='min' class="itemRight"></td>
+                    <td id='mind' class="itemRight"></td>
                 </tr>
               <tr>
-                    <td>SMS</td>
-                    <td id='sms'></td>
-                    <td id='smsd'></td>
+                    <td class="itemRight">SMS</td>
+                    <td id='sms' class="itemRight"></td>
+                    <td id='smsd' class="itemRight"></td>
                 </tr>
             </tbody>
         </table>
