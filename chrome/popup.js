@@ -36,6 +36,8 @@ document.addEventListener('DOMContentLoaded', function()
         document.getElementById('ltebd').textContent = round(data.internet.data.values.lte.delta);
         document.getElementById('nb').textContent = data.internet.data.values.national_data.cant+" MB";
         document.getElementById('nbd').textContent = round(data.internet.data.values.national_data.delta);
+        document.getElementById('pb').textContent = data.internet.data.values.promotional_data.cant+" MB";
+        document.getElementById('pbd').textContent = round(data.internet.data.values.promotional_data.delta);
 
         document.getElementById('cerdit').textContent = data.internet.credit.values.credit_normal.cant;
         document.getElementById('cerditd').textContent = round(data.internet.credit.values.credit_normal.delta);
