@@ -1,4 +1,7 @@
 function round(number, digits=2){
+    if (typeof number === 'string' || number instanceof String){
+        return number;
+    }
     return Math.round((number+Number.EPSILON)*10**digits)/10**digits;
 }
 
